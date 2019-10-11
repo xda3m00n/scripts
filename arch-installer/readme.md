@@ -1,0 +1,1 @@
+A simple script that was meant to install some of the pentesting packages I used to need on Arch. It addes the blackarch's repos and also installs Yaourt, so I don't need to do that each installation. 
