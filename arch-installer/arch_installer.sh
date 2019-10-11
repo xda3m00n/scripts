@@ -12,7 +12,7 @@ echo "Script has finished installing Archstrike's repos, ^ shows the packages th
 while true; do
 	read -p "Would you like to install the default tools? [Y/n]" yn 
 	case $yn in
-		[Yy]* ) sudo pacman -S metasploit dirb dirbuster gobuster nmap masscan openvpn nikto sqlmap aircrack-ng hydra john tmux netcat wireshark-qt hashcat macchanger firefox neofetch gtop scrot samdump2; break;;
+		[Yy]* ) sudo pacman -S metasploit dirb dirbuster gobuster nmap masscan openvpn nikto sqlmap aircrack-ng hydra john tmux netcat wireshark-qt hashcat macchanger firefox neofetch gtop scrot samdump2 git zsh gdb, radare2; break;;
 		[Nn]* ) exit;;
 		* ) echo "[Y/n]";;
 	esac
